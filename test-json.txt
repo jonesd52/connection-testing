@@ -1,0 +1,31 @@
+{ 
+  "timestamp": "2013-05-23T11:50:40+02:00", 
+  "verb": { 
+    "id": "http://www.adlnet.gov/expapi/verbs/experienced" 
+  }, 
+  "context": { 
+    "contextActivities": { 
+      "parent": { 
+        "id": "http://localhost:8080/portal/site/130232db-4e07-4e38-a091-526d6567e380" 
+      } 
+    } 
+  }, 
+  "object": { 
+  "id": "http://localhost:8080/portal/news/site/130232db-4e07-4e38-a091-526d6567e380/placement/14b4d0ac-228b-4739-822f-6fcd3ee2b3f3", 
+    "definition": { 
+        "name": { 
+                "en-US": "Example Activity" 
+            }, 
+        "description": { 
+                "en-US": "Example activity definition" 
+            }, 
+      "type": "http://adlnet.gov/expapi/activities/view-news" 
+    }, 
+     "objectType": "Activity" 
+  }, 
+  "actor": { 
+    "name": "AlanTester", 
+    "objectType": "Agent", 
+    "mbox": "mailto:tester@dev.nl" 
+  } 
+} 
